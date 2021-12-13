@@ -55,6 +55,16 @@ let itr = Math.floor((Math.random() * 4) + 0);
 //     return color;
 // };
 
+//get any random color
+// let getRandomColor =() => {
+//     var letters = '0123456789ABCDEF';
+//     var color = '#';
+//     for (var i = 0; i < 6; i++) {
+//       color += letters[Math.floor(Math.random() * 16)];
+//     }
+//     return color;
+//   };
+
 //color fill logic
 let colorfil = ()=> {
     for(let i=0;i<circlebtn.length;i++){
